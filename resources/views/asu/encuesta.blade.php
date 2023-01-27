@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="/js/encuesta.js"></script> 
@@ -20,6 +20,7 @@
         <form action="#" id="formulario" method="POST" enctype="multipart/form-data"
               class="bg-white w-1/3 p-7 border border-green-700 shadow-xl rounded-lg" style="width: 100%">
             @csrf
+            
             <!-- encabezado imagen y titulo -->
             <div class="grid px-7 py-2  w-full  items-center justify-around md:grid-cols-3 gap-4">
                 <div class="col-span-1 flex flex-col">

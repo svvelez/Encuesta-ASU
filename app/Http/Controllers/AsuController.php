@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ASU;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -9,8 +9,6 @@ use Illuminate\Support\MessageBag;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\TestMail;
 use Illuminate\Validation\Validator;
-
-
 
 
 use App\Mail\UserRequest;
@@ -24,7 +22,7 @@ class AsuController extends Controller
      */
     public function index()
     {
-        return view('asu.encuesta');
+       //
     }
 
 
@@ -77,7 +75,7 @@ class AsuController extends Controller
         $bienestar_confort = $request -> bienestar_confort;
         $infraestructuta_clinica = $request -> infraestructura_clinica;
         /* tabla */
-
+        
 
         $sugerencias = $request -> sugerencias;
 

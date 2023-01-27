@@ -162,7 +162,7 @@ $(document).ready(function () {
 
 
         var formulario = $("#formulario").serialize();
-        var url = './encuesta/formulario';
+        var url = '/encuesta/formulario';
 
 
         $.ajax({

@@ -10,7 +10,16 @@ Route::get('/', function () {
 });
 
 
-  
-Route::resource('encuesta',AsuController::class);
 
 
+   
+    Route::group(['prefix' => 'encuesta'],function(){
+        
+        
+    Route::get('encuesta',[AsuController::class, 'encuesta']);
+    Route::resource('formulario',AsuController::class);
+        
+   
+    
+    
+    });
