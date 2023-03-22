@@ -8,6 +8,7 @@ use App\Mail\FormularioMailable;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\TestMail;
+use App\Models\Respuestas;
 use Illuminate\Validation\Validator;
 
 
@@ -22,24 +23,31 @@ class AsuController extends Controller
      */
     public function index()
     {
-       //
+        $respuestas = Respuestas::all();
+        return view('asu.index', compact('respuestas'));
     }
 
 
     public function encuesta()
     {
+        $respuestas = Respuestas::all();
         return view('asu.encuesta');
+
     }
 
 
     public function create()
     {
-        //
+        $respuestas = Respuestas::all();
+
+
     }
 
 
     public function store(Request $request)
     {
+
+
 
         /* datos paciente */
         $fecha = $request -> fecha;
@@ -126,6 +134,27 @@ class AsuController extends Controller
         if ($validator->fails()) {
             return response()->json(['success' => 'false', 'mensaje' => $validator->errors()->first()]);
         }
+
+
+
+        $respuest = Respuestas::create([
+            'entidad' => $request->entidad_salud,
+            'servicio' => $request->servicio_atencion,
+            'no_encuesta' => $request->no_encuesta,
+            'documento_identidad' => $request->identificacion,
+            'pregunta_1' => $request->atenciontelefonica,
+            'pregunta_2' => $request->oportunidad_cita,
+            'pregunta_3' => $request->trato_recibido,
+            'pregunta_4' => $request->tiempo_espera,
+            'pregunta_5' => $request->informacion_brindada,
+            'pregunta_6' => $request->bienestar_confort,
+            'pregunta_7' => $request->infraestructura_clinica,
+            'pregunta_8' => $request-> recomendacion,
+            'pregunta_9' => $request->escala,
+            'pregunta_10' => $request->calificacion
+         
+
+        ]);
 
 
 

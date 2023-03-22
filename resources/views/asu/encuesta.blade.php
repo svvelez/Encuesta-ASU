@@ -31,6 +31,11 @@
                     <h1 class="text-3xl font-bold mb-2 p-4 text-center text-green-700">ENCUESTA DE SASTIFACCIÓN</h1>
                 </div>
 
+                <div class="col-span-1 ">
+                <label for="title" class="text-xl font-bold  mb-2 p-4  text-green-700">N° encuesta:</label>
+                    <input class="ml-2 outline-none py-1 px-2 text-md  rounded-md"  value="1" name="no_encuesta" id="no_encuesta" >
+                </div>
+
             </div>
             <!-- encabezado imagen y titulo -->
 
@@ -221,7 +226,7 @@
 
             <ul class="grid gap-6 w-full md:grid-cols-5">
                 <li>
-                    <input type="checkbox" id="defsi-option" value="definitivamente si" name="recomendacion" class="hidden peer" required="">
+                    <input type="checkbox" id="defsi-option" value="4" name="recomendacion" class="hidden peer" required="">
                     <label for="defsi-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600  hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <div class="block">
                             <div class="w-full text-lg text-black font-semibold">DEFINITIVAMENTE SI</div>
@@ -230,7 +235,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="probsi-option" value="probablemente si" name="recomendacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="probsi-option" value="3" name="recomendacion"  class="hidden peer" required="">
                     <label for="probsi-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <div class="block">
                             <div class="w-full text-lg text-black font-semibold">PROBABLEMENTE SI</div>
@@ -239,7 +244,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="probno-option" value="probablemente no" name="recomendacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="probno-option" value="2" name="recomendacion"  class="hidden peer" required="">
                     <label for="probno-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <div class="block">
                             <div class="w-full text-lg text-black font-semibold">PROBABLEMENTE NO</div>
@@ -248,7 +253,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="defno-option" value="definitivamente no" name="recomendacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="defno-option" value="1" name="recomendacion"  class="hidden peer" required="">
                     <label for="defno-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <div class="block">
                             <div class="w-full text-lg text-black font-semibold">DEFINITIVAMENTE NO</div>
@@ -257,7 +262,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="noinfo-option" value="no informa" name="recomendacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="noinfo-option" value="0" name="recomendacion"  class="hidden peer" required="">
                     <label for="noinfo-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-300 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <div class="block">
                             <div class="w-full text-lg text-black font-semibold">NO INFORMA</div>
@@ -383,7 +388,7 @@
 
             <ul class="grid gap-6 w-full md:grid-cols-6">
                 <li>
-                    <input type="checkbox" id="muybuena-option" value="muy buena" name="calificacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="muybuena-option" value="5" name="calificacion"  class="hidden peer" required="">
                     <label for="muybuena-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <div class="block">
@@ -393,7 +398,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="buena-option" value="buena" name="calificacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="buena-option" value="4" name="calificacion"  class="hidden peer" required="">
                     <label for="buena-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <div class="block">
@@ -403,7 +408,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="regular-option" value="regular" name="calificacion" class="hidden peer" required="">
+                    <input type="checkbox" id="regular-option" value="3" name="calificacion" class="hidden peer" required="">
                     <label for="regular-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <div class="block">
@@ -413,7 +418,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="mala-option" value="mala" name="calificacion"  class="hidden peer" required="">
+                    <input type="checkbox" id="mala-option" value="2" name="calificacion"  class="hidden peer" required="">
                     <label for="mala-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <div class="block">
@@ -423,7 +428,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="muymala-option" value="muy mala" name="calificacion" id="muy_mala" class="hidden peer" required="">
+                    <input type="checkbox" id="muymala-option" value="1" name="calificacion" id="muy_mala" class="hidden peer" required="">
                     <label for="muymala-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <div class="block">
@@ -433,7 +438,7 @@
                 </li>
 
                 <li>
-                    <input type="checkbox" id="noinforma-option" value="no informa" name="calificacion" id="no_informa" class="hidden peer" required="">
+                    <input type="checkbox" id="noinforma-option" value="0" name="calificacion" id="no_informa" class="hidden peer" required="">
                     <label for="noinforma-option" class="inline-flex justify-center items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-green-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <div class="block">
@@ -486,35 +491,35 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente4-checkbox" type="checkbox" value="excelente" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente4-checkbox" type="checkbox" value="4" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente4-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno4-checkbox" type="checkbox" value="bueno" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno4-checkbox" type="checkbox" value="3" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno4-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular4-checkbox" type="checkbox" value="regular" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular4-checkbox" type="checkbox" value="2" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular4-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala4-checkbox" type="checkbox" value="mala" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala4-checkbox" type="checkbox" value="1" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala4-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica4-checkbox" type="checkbox" value="no aplica" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica4-checkbox" type="checkbox" value="0" name="atenciontelefonica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica4-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -533,35 +538,35 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente5-checkbox" type="checkbox" value="excelente" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente5-checkbox" type="checkbox" value="4" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente5-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno5-checkbox" type="checkbox" value="bueno" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno5-checkbox" type="checkbox" value="3" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno5-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular5-checkbox" type="checkbox" value="regular" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular5-checkbox" type="checkbox" value="2" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular5-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala5-checkbox" type="checkbox" value="mala" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala5-checkbox" type="checkbox" value="1" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala5-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica5-checkbox" type="checkbox" value="no aplica" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica5-checkbox" type="checkbox" value="0" name="oportunidad_cita"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica5-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -579,14 +584,14 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente6-checkbox" type="checkbox" value="excelente" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente6-checkbox" type="checkbox" value="4" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente6-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno6-checkbox" type="checkbox" value="bueno" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno6-checkbox" type="checkbox" value="3" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno6-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -594,21 +599,21 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular6-checkbox" type="checkbox" value="regular" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular6-checkbox" type="checkbox" value="2" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular6-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala6-checkbox" type="checkbox" value="mala" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala6-checkbox" type="checkbox" value="1" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala6-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica6-checkbox" type="checkbox" value="no aplica" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica6-checkbox" type="checkbox" value="0" name="trato_recibido"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica6-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -625,14 +630,14 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente7-checkbox" type="checkbox" value="excelente" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente7-checkbox" type="checkbox" value="4" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente7-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno7-checkbox" type="checkbox" value="bueno" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno7-checkbox" type="checkbox" value="3" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno7-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -640,21 +645,21 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular7-checkbox" type="checkbox" value="regular" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular7-checkbox" type="checkbox" value="2" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular7-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala7-checkbox" type="checkbox" value="mala" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala7-checkbox" type="checkbox" value="1" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala7-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica7-checkbox" type="checkbox" value="no aplica" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica7-checkbox" type="checkbox" value="0" name="tiempo_espera"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica7-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -671,35 +676,35 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente8-checkbox" type="checkbox" value="excelente" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente8-checkbox" type="checkbox" value="4" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente8-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno8-checkbox" type="checkbox" value="buena" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno8-checkbox" type="checkbox" value="3" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno8-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular8-checkbox" type="checkbox" value="regular" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular8-checkbox" type="checkbox" value="2" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular8-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala8-checkbox" type="checkbox" value="mala" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala8-checkbox" type="checkbox" value="1" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala8-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica8-checkbox" type="checkbox" value="no aplica" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica8-checkbox" type="checkbox" value="0" name="informacion_brindada"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica8-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -716,14 +721,14 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente9-checkbox" type="checkbox" value="excelente" name="bienestar_confort"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente9-checkbox" type="checkbox" value="4" name="bienestar_confort"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente9-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno9-checkbox" type="checkbox" value=bueno"" name="bienestar_confort" id="bueno_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno9-checkbox" type="checkbox" value="3" name="bienestar_confort" id="bueno_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno9-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -731,21 +736,21 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular9-checkbox" type="checkbox" value="regular" name="bienestar_confort" id="regular_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular9-checkbox" type="checkbox" value="2" name="bienestar_confort" id="regular_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular9-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala9-checkbox" type="checkbox" value="mala" name="bienestar_confort" id="mala_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala9-checkbox" type="checkbox" value="1" name="bienestar_confort" id="mala_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala9-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica9-checkbox" type="checkbox" value="no aplica" name="bienestar_confort" id="no_aplica_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica9-checkbox" type="checkbox" value="0" name="bienestar_confort" id="no_aplica_9" class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica9-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
@@ -762,35 +767,35 @@
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Excelente</span>
                         <div class="flex justify-center">
-                            <input id="excelente10-checkbox" type="checkbox" value="excelente" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="excelente10-checkbox" type="checkbox" value="4" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="excelente10-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Bueno</span>
                         <div class="flex justify-center">
-                            <input id="bueno10-checkbox" type="checkbox" value="bueno" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="bueno10-checkbox" type="checkbox" value="3" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="bueno10-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Regular</span>
                         <div class="flex justify-center">
-                            <input id="regular10-checkbox" type="checkbox" value="regular" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="regular10-checkbox" type="checkbox" value="2" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="regular10-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">Mala</span>
                         <div class="flex justify-center">
-                            <input id="mala10-checkbox" type="checkbox" value="mala" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="mala10-checkbox" type="checkbox" value="1" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="mala10-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>
                     <td class="w-full lg:w-auto p-3 text-gray-800 text-center border border-b text-center block lg:table-cell relative lg:static">
                         <span class="lg:hidden absolute top-0 left-0 bg-blue-200 px-2 py-1 text-xs font-bold uppercase">No Aplica</span>
                         <div class="flex justify-center">
-                            <input id="noaplica10-checkbox" type="checkbox" value="no aplica" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <input id="noaplica10-checkbox" type="checkbox" value="0" name="infraestructura_clinica"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded  border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="noaplica10-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                         </div>
                     </td>

@@ -158,12 +158,15 @@ $(document).ready(function () {
     });
 
 
+    
+
     $("#enviar").click(function () {
 
 
         var formulario = $("#formulario").serialize();
         var url = '/encuesta/formulario';
 
+     
 
         $.ajax({
             url: url,
@@ -175,6 +178,7 @@ $(document).ready(function () {
                     swal.fire(" ¡Gracias por realizar nuestra encuesta! ", "DIME clinica neurocardiovascular", "success");
                     $("#formulario")[0].reset();
                     $('#formulario input[type=checkbox]').prop('disabled',false);
+                    document.getElementById('no_encuesta').value++;
 
                 }else{
                     Swal.fire("Error", data.mensaje, "error");
