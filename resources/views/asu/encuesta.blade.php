@@ -94,12 +94,13 @@
 
              <!-- datos del paciente -->
 
-            <!-- servicio de atención -->
+         
+             <!-- servicio de atención -->
             <h3 class="text-xl font-bold  mb-2 p-9 text-center text-green-700">Marque con una X el servicio de atención</h3>
             <div class="grid gap-6 w-full md:grid-cols-5">
                 <div class="w-full w-1/2 pb-1/2 col-span-1 flex flex-col">
                     <div class="w-full flex items-center mb-4">
-                        <input id="ecogra-checkbox-1" aria-describedby="checkbox-1" value="ecografia" name="servicio_atencion"  type="checkbox" class="inline-flex w-full w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
+                        <input id="ecogra-checkbox-1" aria-describedby="checkbox-1" value="ecografia" name="servicio_atencion"  type="checkbox" class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
                         <label for="ecogra-checkbox-1" class="inline-flex w-1/4 pb-1/4 w-full block ml-3 mb-2 text-sm font-medium text-black">ECOGRAFÍA</label>
                     </div>
 
@@ -178,7 +179,7 @@
                     </div>
 
                     <div class="w-full w-1/2 pb-1/2 flex items-center  mb-4">
-                        <input id="urg-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="urgencia" name="servicio_atencion"  class="w-full inline-flex w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
+                        <input id="urg-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="urgencia" name="servicio_atencion"  class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
                         <label for="urg-checkbox-1" class="inline-flex w-full block ml-3 mb-2 text-sm font-medium text-black">URGENCIA</label>
                     </div>
 
@@ -191,17 +192,17 @@
 
                 <div class="w-full inline-flex col-span-1 flex flex-col">
                     <div class="w-full inline-flex flex items-center mb-4">
-                        <input id="uc-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="uci/ucin" name="servicio_atencion"  class="w-full inline-flex w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
+                        <input id="uc-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="uci/ucin" name="servicio_atencion"  class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
                         <label for="uc-checkbox-1" class="inline-flex w-full block ml-3 mb-2 text-sm font-medium text-black">UCI/UCIN</label>
                     </div>
 
                     <div class="w-full w-1/4 pb-1/4 inline-flex flex items-center  mb-4">
-                        <input id="hosp-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="hospitalizacion" name="servicio_atencion"  class="w-full inline-flex w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
+                        <input id="hosp-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="hospitalizacion" name="servicio_atencion"  class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
                         <label for="hosp-checkbox-1" class="inline-flex w-full block ml-3 mb-2 text-sm font-medium text-black">HOSPITALIZACIÓN</label>
                     </div>
 
                     <div class="w-full w-1/4 pb-1/4 inline-flex  flex items-center  mb-4">
-                        <input id="lab-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="laboratorio clinico" name="servicio_atencion"  class="w-full inline-flex w-4 h-4 block bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
+                        <input id="lab-checkbox-1" aria-describedby="checkbox-1" type="checkbox" value="laboratorio clinico" name="servicio_atencion"  class="w-4 h-4 block bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
                         <label for="lab-checkbox-1" class="inline-flex w-full w-1/4 block ml-3 mb-2 text-sm font-medium text-black">LABORATORIO CLINICO</label>
                     </div>
 
